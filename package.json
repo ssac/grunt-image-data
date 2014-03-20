@@ -1,0 +1,48 @@
+{
+  "name": "grunt-image-data",
+  "description": "convert image to JSON file with canvas like object (property width, height and data)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ssac/grunt-image-data",
+  "author": {
+    "name": "ssac",
+    "email": "suenkating@gmail.com",
+    "url": "http://code-at-night.blogspot.hk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssac/grunt-image-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ssac/grunt-image-data/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ssac/grunt-image-data/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "async": "~0.2.8",
+    "grunt": "~0.4.1",
+    "lodash": "~1.0.0",
+    "png-js": ""
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
